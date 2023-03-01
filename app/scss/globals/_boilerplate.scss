@@ -1,6 +1,25 @@
+@use "../util" as f;
 body {
-  background-color: blanchedalmond;
+  // background-color: blanchedalmond;
+  font-family: f.$fonts-barlow;
 }
+
+// header
+.header {
+  background: {
+    image: url(../images/desktop/image-header.jpg);
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  }
+  min-height: 100vh;
+
+  &__title {
+    color: var(--neutral-white);
+    font-family: f.$fonts-fraunces;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
