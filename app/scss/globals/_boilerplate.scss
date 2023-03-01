@@ -2,6 +2,7 @@
 body {
   // background-color: blanchedalmond;
   font-family: f.$fonts-barlow;
+  font-size: f.$fonts-body;
 }
 
 // header
@@ -14,9 +15,23 @@ body {
   }
   min-height: 100vh;
 
+  // child elements
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__title {
     color: var(--neutral-white);
     font-family: f.$fonts-fraunces;
+
+    font-size: 2.8rem;
+    line-height: 1;
+    margin: 80px 2rem 45px;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 
