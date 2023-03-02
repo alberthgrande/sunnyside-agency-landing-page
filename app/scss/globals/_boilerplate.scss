@@ -56,28 +56,6 @@ body {
   }
 }
 
-// article
-.article-one {
-  padding: 7rem;
-
-  &__title {
-    color: var(--neutral-very-dark-desaturated-blue);
-    font-size: 3rem;
-    font-family: f.$fonts-fraunces;
-    line-height: 1;
-  }
-  &__text {
-    color: var(--neutral-dark-grayish-blue);
-    margin: 2rem 0;
-  }
-
-  &__link {
-    color: var(--neutral-very-dark-desaturated-blue);
-    font-family: f.$fonts-fraunces;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-}
 // footer
 .attribution {
   font-size: 11px;
