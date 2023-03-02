@@ -1,3 +1,5 @@
+@use "../util" as f;
+
 @media only screen and (max-width: 48rem) {
   // header
   .header {
@@ -8,5 +10,16 @@
       size: cover;
     }
     min-height: 100vh;
+
+    // child elements
+    &__title {
+      font-size: 2.3rem;
+      letter-spacing: 5px;
+    }
+  }
+
+  .grid-layout {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

@@ -1,0 +1,22 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__graphic {
+    position: relative;
+
+    &-text {
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  &__photography {
+    position: relative;
+
+    &-text {
+      position: absolute;
+      top: 0;
+    }
+  }
+}
