@@ -65,11 +65,7 @@
               that do most of the marketing for you.
             </p>
 
-            <div>
-              <a class="grid-layout__content-link yellow" href="#"
-                >Learn more</a
-              >
-            </div>
+            <a class="grid-layout__content-link yellow" href="#">Learn more</a>
           </article>
           <div>
             <picture>
@@ -101,9 +97,7 @@
               extend your brand in digital places.
             </p>
 
-            <div>
-              <a class="grid-layout__content-link red" href="#">Learn more</a>
-            </div>
+            <a class="grid-layout__content-link red" href="#">Learn more</a>
           </article>
         </section>
 
@@ -116,11 +110,16 @@
               />
               <img src="./images/mobile/image-graphic-design.jpg" alt="" />
             </picture>
-            <p class="photographic__layout-text">
-              Graphic design Great design makes you memorable. We deliver
-              artwork that underscores your brand message and captures potential
-              clients’ attention.
-            </p>
+            <div class="photographic__layout-content">
+              <h2 class="photographic__layout-content__title">
+                Graphic design
+              </h2>
+              <p class="photographic__layout-content__text">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
           </article>
 
           <article class="photographic__layout">
@@ -131,50 +130,103 @@
               />
               <img src="./images/mobile/image-photography.jpg" alt="" />
             </picture>
-            <p class="photographic__layout-text">
-              Photography Increase your credibility by getting the most
-              stunning, high-quality photos that improve your business image.
-            </p>
+            <div class="photographic__layout-content">
+              <h2 class="photographic__layout-content__title">Photography</h2>
+              <p class="photographic__layout-content__text">
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </article>
         </section>
 
         <section class="testimonials">
-          <!--  -->
-          <h2>Client testimonials</h2>
-          <!--  -->
-          <article>
-            <p>
-              We put our trust in Sunnyside and they delivered, making sure our
-              needs were met and deadlines were always hit.
-            </p>
-            <h3>Emily R.</h3>
-            <p>Marketing Director</p>
-          </article>
-          <!--  -->
-          <article>
-            <p>
-              Sunnyside’s enthusiasm coupled with their keen interest in our
-              brand’s success made it a satisfying and enjoyable experience.
-            </p>
-            <h3>Thomas S.</h3>
-            <p>Chief Operating Officer</p>
-          </article>
-          <!--  -->
-          <article>
-            <p>
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended!
-            </p>
-            <h3>Jennie F.</h3>
-            <p>Business Owner</p>
-          </article>
+          <h2 class="testimonials-title">Client testimonials</h2>
+
+          <div class="testimonials-article">
+            <article class="testimonials-article__content">
+              <img src="./images/image-emily.jpg" alt="" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <h3>Emily R.</h3>
+              <p>Marketing Director</p>
+            </article>
+            <!--  -->
+            <article class="testimonials-article__content">
+              <img src="./images/image-thomas.jpg" alt="" />
+              <p>
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <h3>Thomas S.</h3>
+              <p>Chief Operating Officer</p>
+            </article>
+            <!--  -->
+            <article class="testimonials-article__content">
+              <img src="./images/image-jennie.jpg" alt="" />
+              <p>
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <h3>Jennie F.</h3>
+              <p>Business Owner</p>
+            </article>
+          </div>
         </section>
         <!--  -->
-        About Services Projects Contact
-        <!--  -->
+        <section class="gallery">
+          <!-- milkbottles -->
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/desktop/image-gallery-milkbottles.jpg"
+            />
+
+            <img src="./images/mobile/image-gallery-cone.jpg" alt="" />
+          </picture>
+
+          <!-- orange -->
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/desktop/image-gallery-orange.jpg"
+            />
+            <img src="./images/mobile/image-gallery-orange.jpg" alt="" />
+          </picture>
+
+          <!-- cone -->
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/desktop/image-gallery-cone.jpg"
+            />
+            <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" />
+          </picture>
+
+          <!-- sugar-cubes -->
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/desktop/image-gallery-sugarcubes.jpg"
+            />
+            <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+          </picture>
+        </section>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
+      <img src="./images/logo.svg" alt="" />
+      About Services Projects Contact
+
+      <div>
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-instagram.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+        <img src="./images/icon-pinterest.svg" alt="" />
+      </div>
+      <!--  -->
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

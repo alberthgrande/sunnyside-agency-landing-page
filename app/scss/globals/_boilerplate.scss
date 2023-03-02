@@ -57,7 +57,12 @@ body {
 }
 
 // footer
+.footer {
+  min-height: 345px;
+  background: var(--primary-dark-moderate-cyan);
+}
 .attribution {
+  display: none;
   font-size: 11px;
   text-align: center;
   a {
