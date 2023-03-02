@@ -58,6 +58,20 @@ li:last-child .nav-link:hover {
     z-index: 1;
   }
 
+  .nav-list::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 50px solid var(--neutral-white);
+
+    z-index: 1;
+  }
+
   .nav-list.active {
     display: block;
   }

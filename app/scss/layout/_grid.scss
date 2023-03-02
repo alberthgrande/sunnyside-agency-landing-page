@@ -1,6 +1,7 @@
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 
   &__graphic {
     position: relative;
