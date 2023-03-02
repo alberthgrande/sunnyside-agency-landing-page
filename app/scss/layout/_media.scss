@@ -17,4 +17,13 @@
       letter-spacing: 5px;
     }
   }
+
+  .footer__list {
+    margin-left: -2rem;
+  }
+  .footer__link li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
 }

@@ -9,7 +9,7 @@
   &__content {
     margin: auto;
     max-width: 430px;
-    padding: 2rem;
+    padding: 0 2rem;
 
     &-title {
       color: var(--neutral-very-dark-desaturated-blue);
@@ -71,34 +71,58 @@
 
 .photographic__layout {
   position: relative;
+
   &-content {
     position: absolute;
-    bottom: 0;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
     text-align: center;
 
+    // bottom: 0;
+    // max-width: 11.875rem;
     &__title {
       font-family: f.$fonts-fraunces;
+      margin-bottom: 1.875rem;
     }
   }
 }
-
+.cherry {
+  color: var(--primary-dark-desaturated-cyan);
+}
+.orange {
+  color: var(--primary-dark-blue);
+}
 .testimonials {
   min-height: 116vh;
   text-align: center;
   display: grid;
   place-content: center;
+  margin: 0 2rem;
   &-title {
     font-family: f.$fonts-fraunces;
   }
+
   &-article {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 1rem;
+    max-width: 1080px;
     &__content img {
       border-radius: 50%;
       display: block;
       margin: auto;
+      height: 60px;
+      width: 60px;
+    }
+
+    &__content h3 {
+      font-family: f.$fonts-fraunces;
+    }
+
+    &__content p {
+      flex: 1;
     }
   }
 }
