@@ -65,11 +65,13 @@ body {
   gap: 2rem;
   min-height: 345px;
   background: var(--primary-dark-moderate-cyan);
+
   &__social-media {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    cursor: pointer;
   }
 
   &__list li {
@@ -87,10 +89,6 @@ body {
 
   &__list li a:hover {
     color: var(--neutral-white);
-  }
-
-  &__social-media {
-    cursor: pointer;
   }
 
   &__list li a img:hover {
