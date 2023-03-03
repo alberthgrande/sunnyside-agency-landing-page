@@ -27,6 +27,7 @@ body {
   &__title {
     color: var(--neutral-white);
     font-family: f.$fonts-fraunces;
+    font-weight: f.$fonts-900;
 
     font-size: 2.8rem;
     line-height: 1;
@@ -37,6 +38,7 @@ body {
   }
 }
 .header__arrow {
+  margin-top: 100px;
   animation: bounce2 2s ease infinite;
 }
 // animation
